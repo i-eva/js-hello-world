@@ -4,7 +4,7 @@ Enter your code on line 7 to print 'Hello, World!'
 to the console (the panel on the right)
 */
 
-console.log("Hello, World! Hey...is this thing on?");
+console.log('Hello, World!');
 
 /*  
 Next, PLAY! 
@@ -20,3 +20,26 @@ Modify your code on line 7 to try to accomplish the tasks listed below:
    8. Print a message that contains quote marks, such as Quoth the Raven "Nevermore". DONE for single quotes only
    9. Other. You choose! 
 */
+
+//Chapter 8 doodling around: Q - how many items in each array?
+
+//checking against my answers: 1 and 3
+
+let classes = ["science, computer, art"];
+console.log(classes.length);
+
+let teachers = ["Jones", "Willoughby", "Rhodes"];
+console.log(teachers.length);
+
+//YAY OK now
+//How can you change the classes array declaration to have 
+//the same number of items as the teachers array?
+
+//As they helpfully pointed out, it all has to do with where the 
+//quotation marks end up
+
+classes = ["science", "computer", "art"];
+console.log(classes.length);
+
+teachers = ["Jones", "Willoughby", "Rhodes"];
+console.log(teachers.length);
