@@ -105,3 +105,13 @@ school[1].push(danceTeacher);
 console.log(school[1]);
 
 //Easier the second time!
+
+//trying something again...
+
+cityName = "Vienna";
+stateName = "Virginia";
+location = cityName + ", " + stateName;
+
+console.log(location.length);
+
+//testing to see what gets counted as part of length 
